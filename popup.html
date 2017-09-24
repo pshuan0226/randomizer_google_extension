@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- <script src="popup.js"></script> -->
+  </head>
+  <body style="width: 300px; height: 200px">
+    <div>
+      Hello World
+    </div>
+    Enter your choices! :<br />
+    <input type=text id="option1"><br>
+    <button onclick=test()>Decide</button>
+
+
+    <!--<p id="demo"><script>document.write(option_1)</script></p>-->
+    <script type="text/javascript">
+      document.write("test");
+    // var data = document.getElementById("option1").value;
+    // var choices = [8,5,3,7,4,23,4,2];
+    // var length = choices.length;
+    // var random;
+    // var text;
+    // text = "<ul>";
+    //
+    // for (i = 0; i < length; i++) {
+    //   random = Math.floor(Math.random() * choices.length);
+    //   text += "<li>" + choices[random] + "</li>";
+    //   choices.splice(random,1);
+    // }
+    //
+    // document.getElementById("demo").innerHTML = text;
+
+    function test(){
+      var option_1 = document.getElementById("option1").value;
+      //document.getElementById("demo").innerHTML = option_1;
+    }
+
+    </script>
+  </body>
+</html>
